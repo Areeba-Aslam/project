@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar css */
+
+.navbar-brand {
+    color: #fdbc42 !important;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover {
+    text-decoration: underline;
+    background-color: rgb(255, 200, 81);
+    color: white;
+    border-radius: 15px;
+}
+
+.navbar form button {
+    background-color: #fdbc42;
+    color: white;
+}
+
+.navbar form button:hover {
+    color: black;
+}
+
+/* home css */
+
+.carousel-item img {
+    height: 83vh;
+}
+
+.carousel-caption {
+    text-align: center;
+    margin-bottom: 175px;
+}
+
+/* ABOUT section */
+
+.about {
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.about .section-title {
+    color: #fdbc42;
+    font-size: 2rem;
+    text-shadow: 0px 1px 1px #fdbc42;
+    margin-bottom: 40px;
+}
+
+.about .card {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 5px 5px -5px black;
+    border-radius: 10px;
+}
+
+.card .about-pic {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.about h2 {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(116, 114, 114);
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.about p {
+    letter-spacing: 0.5px;
+}
+
+.about-btn {
+    border-radius: 40px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #fdbc42;
+    border: none;
+}
+
+.about-btn:hover {
+    background-color: white;
+    color: #fdbc42;
+    border: 2px solid #fdbc42;
+    cursor: pointer;
+}
+
+/* booking css */
+
+.book {
+    padding: 40px;
+}
+
+.book .section-title {
+    color: #fdbc42;
+    font-size: 2rem;
+    text-shadow: 0px 1px 1px #fdbc42;
+    margin-bottom: 40px;
+}
+
+.book .card {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 5px 5px -5px black;
+    border-radius: 10px;
+}
+
+.card .booking-pic {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.book form input {
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.submit {
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: #fdbc42;
+    color: white;
+    border: none;
+}
+
+.submit:hover {
+    background-color: white;
+    color: #fdbc42;
+    border: 2px solid #fdbc42;
+}
+
+/* service section */
+
+.service {
+    margin-top: auto;
+}
+
+.service .card {
+    box-shadow: 0px 5px 5px -6px black;
+    border: none;
+    cursor: pointer;
+}
+
+.service .card i {
+    font-size: 34px;
+    text-align: center;
+    color: #fdbc42;
+}
+
+/* footer section */
+
+footer {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+footer h1 {
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+
+.social-links {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-links i:hover {
+    background-color: #fdbc42;
+}
+
+/* Section Packages */
+.main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+    color: #fdbc42;
+}
+.card img{
+    width: 345px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+.packages .card{
+    border-radius: 3px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.packages .card .card-body p{
+    font-size: 15px;
+}
+.checked{
+    color: #fdbc42;
+}
+.star i{
+    font-size: 15px;
+
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background:  #fdbc42;
+    color: white;
+    border-radius: 3px;
+}
